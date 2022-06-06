@@ -11,6 +11,8 @@ console.log(p);
 
 p.then((message)=>{
 	console.log('This is in the then '+message);
+
+	return message;
 }).then((message)=>{
 	console.log('This is in the then '+message);
 }).catch((message)=>{
