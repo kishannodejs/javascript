@@ -32,6 +32,39 @@ console.log(Array.from(new Set(myArray)));
 
 
 
+
+// (function(x) {
+//     return (function(y) {
+//         console.log(x);
+//         console.log(y);
+//     })(2)
+// })(1);
+
+
+// var b = 1;
+// function outer(){
+//    	var b = 2
+//     function inner(){
+//         b++;
+//         var b = 3;
+//         console.log(b)
+//     }
+//     inner();
+// }
+// outer();
+
+
+// (function () {
+//     try {
+//         throw new Error();
+//     } catch (x) {
+//         var x = 1, y = 2;
+//         console.log(x);
+//     }
+//     console.log(x);
+//     console.log(y);
+// })();
+
 // console.log(arr2);
 
 // // const ages = [32, 33, 16, 40];

@@ -1,0 +1,50 @@
+// // program to check if the string is palindrome or not
+
+// function checkPalindrome(string) {
+
+//     // find the length of a string
+//     const len = string.length;
+
+//     // loop through half of the string
+//     for (let i = 0; i < len / 2; i++) {
+
+//         // check if first and last string are same
+//         if (string[i] !== string[len - 1 - i]) {
+
+//             console.log(`${string[i]} ====== ${string[len-1-i]}`)
+//             return 'It is not a palindrome';
+//         }
+//     }
+//     return 'It is a palindrome';
+// }
+
+// // take input
+// const string = "apa";
+
+// console.log(string.length/2)
+
+// // call the function
+// const value = checkPalindrome(string);
+
+// console.log(value);
+
+
+
+
+var abc = "123";
+
+console.log(Array.from(abc))
+
+function checkPalindrome(){
+for(i=0; i<abc.length/2; i++){
+
+    if(abc[i]!==[abc.length-1-i]){
+        return 'It is not a palindrome';
+    }
+
+}
+
+return 'It is a palindrome';
+}
+
+console.log(checkPalindrome(abc))
